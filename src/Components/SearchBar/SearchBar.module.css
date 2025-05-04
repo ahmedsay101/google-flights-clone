@@ -1,0 +1,58 @@
+.searchBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2d2f31;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .selectWrapper,
+  .inputWrapper,
+  .dateWrapper {
+    background-color: #2d2f31;
+    border: 1px solid #444;
+    border-radius: 6px;
+    padding: 8px 12px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+  }
+  
+  .select,
+  .input,
+  .dateInput {
+    background: transparent;
+    border: none;
+    color: #fff;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .input::placeholder,
+  .dateInput::placeholder {
+    color: #ccc;
+  }
+  
+  .exploreButton {
+    background-color: #9bbcf9;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .exploreButton:hover {
+    background-color: #a9c9ff;
+  }

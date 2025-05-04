@@ -1,0 +1,53 @@
+.container {
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: grid;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.header {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fafafa;
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.route {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.detail {
+  margin-bottom: 0.25rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #1e90ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
